@@ -1,4 +1,4 @@
-fetch('https://jsonplaceholder.typicode.com/users')
+fetch("https://api.hatchways.io/assessment/blog/posts")
   .then(checkStatus)
   .then(response => response.json())
   .then(data => {
